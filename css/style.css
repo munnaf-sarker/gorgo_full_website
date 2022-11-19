@@ -1,0 +1,291 @@
+/* common start */
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2A2836 ;
+}
+/* common end */
+/* header start */
+header{
+    padding: 10px 0;
+    /* border-bottom: 2px solid gray; */
+}
+.wrapper{
+    overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.logo{
+    float: left;
+    width: 14%;
+    padding: 5px 0;
+    /* border: 1px solid black; */
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: left;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.menu ul{
+    margin: 21px 0;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    color: #2A2836;
+    }
+.menu ul li a:hover{
+    color: #FF6162;
+}    
+.button{
+    float: right;
+    padding: 11px 0;
+}
+.button button{
+    background-color: #FF6162;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding: 9px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* header end */
+/* banner start */
+.banner {
+    padding-top: 11%;
+}
+
+
+.banner_text {
+    width: 48%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.banner_text h1{
+    width: 64%;
+    font-size: 38px;
+
+}
+.banner_text p{
+    font-weight: 400;
+    margin-right: 60px;
+    color: #A2ABCE;
+
+}
+.banner_img {
+    width: 50%;
+    float: right;
+    /* border: 1px solid black; */
+
+}
+.banner_img img {
+    width: 100%;
+}
+/* read more button start */
+.r_button{
+    margin-top: 20px;
+}
+.r_button button{
+    border-radius: 50%;
+    padding: 1px 6px;
+    background-color: white;
+    color: #A2ABCE;
+    border: 2px solid;
+}
+
+/* read more button end */
+/* banner end */
+ /* text caption start  */
+ .caption_text{
+    /* border: 1px solid black; */
+    padding-top: 22%;
+
+ }
+ .caption{
+    text-align: center;
+
+ }
+ .caption h1{
+    font-size: 32px;
+    margin-bottom: 0;
+ }
+ .caption p{
+    padding: 0 29%;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 18px;
+    color: #A2ABCE;
+    
+ }
+ /* text caption end  */
+
+
+ /* feature start */
+ .feature {
+    padding-bottom: 10%;
+}
+
+.container {
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 93%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.feature_img {
+    /* border: 1px solid black; */
+    width: 23%;
+    float: left;
+    padding: 0 8px;
+    margin-right: 11.5px;
+}
+.feature_img:last-child{
+    margin-right: 0px;
+}
+.f_img{
+    box-shadow: 0px 20px 25px #91919261 ;
+    /* color: #100f110a; */
+}
+.f_img img{
+    width: 100%;
+}
+ /* feature end */
+ /* line height start */
+ .line{
+    /* border: 1px solid black; */
+    padding-bottom: 14%;
+ }
+ .line_height{
+    border-left: 2px solid #A2ABCE;
+    height: 120px;
+    margin: 0px 50%
+ }
+ /* line height end */
+ /* feature option start */
+ .feature_option{
+    padding-top: 3%;
+    padding-bottom: 7%;
+
+ }
+ .feature_1{
+    /* border: 1px solid black; */
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-weight: 400;
+    background-color: #F3F3F3;
+    margin-right: 23px;
+    margin-bottom: 26px;
+    border-radius: 5px;
+    padding: 0 8px;
+    
+ }
+ .feature_1:nth-child(3){
+    margin-right: 0;
+ }
+ .feature_1:nth-child(4){
+    margin-bottom: 0;
+ }
+ .feature_1:nth-child(5){
+    margin-bottom: 0;
+ }
+ .feature_1:nth-child(6){
+    margin-bottom: 0;
+ }
+ .feature_1:last-child{
+    margin-right: 0;
+ }
+ .feature_1 h3{
+    margin-top: 10px;
+    margin-bottom: -3px;
+ }
+ .feature_1 p{
+    color: #A2ABCE;
+    /* margin-top: 10px; */
+ }
+ .feature_1_img{
+    padding: 32px 75px 0px 75px
+ }
+ .feature_1_img img{
+    width: 45%;
+ }
+ .p_3rd{
+    margin-bottom: 37px;
+ }
+ .p_6th{
+    margin-bottom: 34px;
+ }
+ .p_5th{
+    margin-bottom: 58px;
+ }
+ .p_4th{
+    margin-bottom: 57px;
+ }
+
+ /* feature option end */
+
+ /* footer start */
+ footer{
+    background-color: #292640;
+    color: white;
+    text-align: center;
+ }
+ footer h1{
+    padding: 9% 32% 0;
+    font-size: 45px;
+ }
+ .footer_button{
+    padding-top: 1%;
+ }
+ .footer_button button{
+    background-color: #FF6162;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding: 19px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+ }
+ .footer_logo {
+    padding: 3% 0;
+    overflow: hidden;
+ }
+
+.logo_img {
+    width: 13%;
+    float: left;
+    margin-left: 43.5%;
+}
+.logo_img img {
+    width: 100%;
+}
+
+.uper_button {
+    width: 5%;
+    float: right;
+}
+.uper_button button{
+    border-radius: 50%;
+    padding: 6px 11px;
+    background-color: #8D8B98;
+    color: #292640;
+    border: none;
+    margin-top: 18px;
+}
+ /* footer end */
